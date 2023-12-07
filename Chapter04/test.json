@@ -1,0 +1,9 @@
+{
+    "Name":"Мишган", 
+    "Surname":"Я попер",
+    "Tel": [
+        {"Mpbile": true, "Number":"123"},
+        {"Mpbile": true, "Number":"345"},
+        {"Mpbile": false, "Number":"777"}
+    ]
+}
