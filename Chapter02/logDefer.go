@@ -35,8 +35,8 @@ func main() {
 	defer f.Close()
 
 	iLog := log.New(f, "logDefer ", log.LstdFlags)
-	iLog.Println("Здарова, епта!")
-	iLog.Println("Еще логов бого логов!")
+	iLog.Println("Hello")
+	iLog.Println("Еще логов богу логов!")
 
 	one(iLog)
 	two(iLog)

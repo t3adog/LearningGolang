@@ -23,7 +23,7 @@ func main() {
 
 func validateArgs(args []string) {
 	if len(args) == 1 {
-		fmt.Println("Ты че, еблан? Надо больше аргументов")
+		fmt.Println("Нужно больше аргументов")
 		os.Exit(1)
 	}
 }
